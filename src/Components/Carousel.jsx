@@ -1,6 +1,6 @@
 import React from "react";
 import Hero1 from "../assets/sliderImages/award.jpeg";
-import Hero2 from "../assets/sliderImages/men.jpg";
+import Hero2 from "../assets/sliderImages/igwecom.jpeg";
 import Hero3 from "../assets/sliderImages/main2.jpeg";
 import Hero4 from "../assets/sliderImages/main1.jpeg";
 import Hero5 from "../assets/sliderImages/main5.jpeg";

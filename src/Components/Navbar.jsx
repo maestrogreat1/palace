@@ -45,7 +45,7 @@ const Navbar = () => {
         </div>
         <div className="flex flex-col">
           <div className="flex flex-col lg:flex-row justify-end py-1">
-            <div className="flex space-x-2 items-center">
+            <div className="flex space-x-2 items-center ">
               <FaEnvelope className="text-red-500" />
               <span>info@EzeIgboigburuburuIIProsper.com</span>
             </div>
@@ -119,7 +119,7 @@ const Navbar = () => {
                 </a>
               </div>
             </div>
-            <div className="group">
+            {/* <div className="group">
               <a
                 href=""
                 className="flex items-center space-x-1 font-medium px-4"
@@ -147,7 +147,7 @@ const Navbar = () => {
                   Diaspora
                 </a>
               </div>
-            </div>
+            </div> */}
             <a
               href="/about"
               className="flex items-center space-x-1 font-medium px-4"
@@ -173,7 +173,7 @@ const Navbar = () => {
           </a>
           <button
             onClick={() => setMobileMenu(!mobileMenu)}
-            className=" lg:hidden"
+            className=" lg:hidden pl-3"
           >
             {" "}
             {mobileMenu ? (

@@ -30,7 +30,7 @@ const reviews = [
   },
   {
     id: 4,
-    name: "Chief (Amb) Oluebube Adide",
+    name: "Chief (Amb) Oluebube Ada'ide",
     position: "National Youth Service Corp Member",
     review:
       "Ezeigboigburuburu II dynamically transfers our ancestral legacy to the youth globally, ensuring Igbo culture thrives vibrantly in the modern world.",

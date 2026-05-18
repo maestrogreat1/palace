@@ -1,9 +1,10 @@
 import React from "react";
 import ServiceBg from "../assets/Home/servicebg.png";
-import philan from "../assets/Home/soloblue1.jpeg";
-import crown from "../assets/Home/igbotwo.jpeg";
+import philan from "../assets/Home/sharp.jpeg";
+import crown from "../assets/Home/conf.jpeg";
 import mask from "../assets/Home/kingship.jpeg";
 import { FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const services = [
   {
@@ -53,7 +54,7 @@ const Services = () => {
               <div className="flex flex-col justify-center items-center px-8">
                 <h3 className="text-xl font-bold mb-2">{service.title}</h3>
                 <p className="text-sm">{service.description}</p>
-                <a href="" className="flex items-center mt-2s space-x-2 text-red-500 font-bold hover:underline"><span>More</span> <FaArrowRight className="text-xs"/></a>
+                <a href="/services" className="flex items-center mt-2s space-x-2 text-red-500 font-bold hover:underline"><span>More</span> <FaArrowRight className="text-xs"/></a>
               </div>
             </div>
           ))}
