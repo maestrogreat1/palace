@@ -5,7 +5,7 @@ const AboutMain = () => {
   return (
     <div className="py-20 bg-gray-100">
       <div className="max-w-7xl mx-auto">
-        <h2 className="lg:mt-20 mt-12 text-3xl lg:text-6xl font-bold mb-4 lg:mb-20 text-center text-black">
+        <h2 className="text-3xl lg:text-6xl font-bold mb-4 lg:mb-20 text-center text-black">
           About Us
         </h2>
         <div className="flex flex-col-reverse lg:flex-row">

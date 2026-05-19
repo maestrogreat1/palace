@@ -12,7 +12,7 @@ import { EffectFade, Autoplay } from "swiper/modules";
 
 const Carousel = () => {
   return (
-    <div className='lg:mt-35 mt-20'>
+    <div className='lg:mt- mt-2'>
       <Swiper
         modules={[Autoplay, EffectFade]}
         effect="fade"

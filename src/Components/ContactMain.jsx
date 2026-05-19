@@ -9,7 +9,7 @@ import { EffectFade, Autoplay } from "swiper/modules";
 
 const ContactMain = () => {
   return (
-    <div className='lg:mt-30'>
+    <div className=''>
       <Swiper
         modules={[Autoplay, EffectFade]}
         effect="fade"

@@ -4,7 +4,7 @@ import ServiceCarou from "../Components/ServiceCarou";
 
 const ServicesPage = () => {
   return (
-    <div  className='lg:mt-30'>
+    <div  className=''>
       <ServiceCarou />
       <Card />
     </div>

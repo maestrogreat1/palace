@@ -19,12 +19,14 @@ import ContactPage from './Pages/ContactPage'
 import ServicesPage from './Pages/ServicesPage'
 
 function App() {
+
+  
   
 
   return (
-    <Router>
+    <Router className=" w-full overflow-x-hidden">
       <Navbar />
-      <Routes >
+      <Routes className="">
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<AboutPage />} />
         <Route path='/contact' element={<ContactPage />} />
