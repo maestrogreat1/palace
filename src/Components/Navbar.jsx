@@ -340,14 +340,14 @@ export default function Navbar({ isScrolled}) {
               </button>
               <div className="absolute right-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 <div className="rounded-xl w-56 bg-white shadow-xl border border-gray-100 py-2 overflow-hidden">
-                  <a href="/events" className="block px-5 py-3 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600 font-medium">
+                  <a href="/prayers" className="block px-5 py-3 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600 font-medium">
                     Prayers
                   </a>
-                  <a href="/events" className="block px-5 py-3 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600 font-medium">
-                    Coronation
+                  <a href="/coronation" className="block px-5 py-3 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600 font-medium">
+                    Coronation & Awards
                   </a>
                   <a href="/events" className="block px-5 py-3 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600 font-medium">
-                    Awards and Celebrations
+                    Latest Palace News
                   </a>
                 </div>
               </div>
@@ -445,7 +445,7 @@ export default function Navbar({ isScrolled}) {
                   Our Activities
                 </div>
                 <a 
-                  href="/events" 
+                  href="/prayers" 
                   className="block px-6 py-2.5 text-base font-medium text-gray-700 hover:text-red-500"
                   onClick={() => setMobileMenu(false)}
                 >
@@ -456,7 +456,7 @@ export default function Navbar({ isScrolled}) {
                   className="block px-6 py-2.5 text-base font-medium text-gray-700 hover:text-red-500"
                   onClick={() => setMobileMenu(false)}
                 >
-                  — Coronation
+                  — Latest News
                 </a>
               </div>
 

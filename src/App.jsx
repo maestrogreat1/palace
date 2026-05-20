@@ -17,6 +17,8 @@ import Home from './Pages/Home'
 import AboutPage from './Pages/AboutPage'
 import ContactPage from './Pages/ContactPage'
 import ServicesPage from './Pages/ServicesPage'
+import Prayers from './Pages/Prayers'
+import GalleryPage from './Pages/GalleryPage'
 
 function App() {
 
@@ -31,6 +33,8 @@ function App() {
         <Route path='/about' element={<AboutPage />} />
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/services' element={<ServicesPage />} />
+        <Route path='/prayers' element={<Prayers />} />
+        <Route path='/events' element={<GalleryPage />} />
       </Routes>
       {/* <Carousel />
       <Choose />
